@@ -80,6 +80,7 @@ interface and workspace scaling service.
 
 ## Package Structure
 
+```
 src/
 └── isaacsim_teleop_lab/
 ├── launch/
@@ -93,6 +94,7 @@ docs/
 ├── 02-gamepad-teleop.md
 ├── 03-arm-fundamentals.md
 └── 04-haptic-integration.md
+```
 
 ---
 
