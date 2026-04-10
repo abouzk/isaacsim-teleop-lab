@@ -79,3 +79,41 @@ interface and workspace scaling service.
 ---
 
 ## Package Structure
+
+src/
+└── isaacsim_teleop_lab/
+├── launch/
+│   ├── keyboard_teleop.launch.py
+│   └── gamepad_teleop.launch.py
+├── package.xml
+└── setup.py
+docs/
+├── 00-environment-setup.md
+├── 01-keyboard-teleop.md
+├── 02-gamepad-teleop.md
+├── 03-arm-fundamentals.md
+└── 04-haptic-integration.md
+
+---
+
+## Hardware
+
+| Lab | Hardware Required |
+|-----|-------------------|
+| 0–3 | None (keyboard only) |
+| 2 | Any USB gamepad (Xbox / PS / generic) |
+| 4 | Novint Falcon + 30V power supply |
+
+Labs 0–3 run entirely on the XLab gaming PCs or a
+Brev cloud instance. No hardware purchase required.
+
+---
+
+## Part of a Larger Project
+
+This module is the educational foundation for ongoing
+research in haptic surgical teleoperation. The full
+research pipeline (Novint Falcon force-reflection,
+Phantom Omni 6DOF control, soft-body tissue simulation,
+and biomedical imaging integration) can be accessed at
+[isaacsim-surgical-teleop](https://github.com/abouzk/isaacsim-surgical-teleop).
